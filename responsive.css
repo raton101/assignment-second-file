@@ -1,0 +1,40 @@
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        margin: 10px;
+        align-items: center;
+        padding-left: 70px;
+    }
+    ul{
+        flex-direction: column;  
+    }
+    .frist-section{
+        flex-direction: column;
+        flex-direction: column-reverse;  
+    }
+    
+    .image-div{
+        margin-left:0px ;
+        width: 100%;
+        background-color: white;
+        padding: 40px;
+       
+       }
+       .containar{
+        margin-left: 0px;
+        background-color: rgb(224, 188, 140);
+        padding: 40px;
+        margin-top: 30px;
+      
+       }
+       .nav-title{
+        font-size: 30px;
+        align-items: center;
+        
+    }
+    .nav-title img{
+        height: 25px;
+        margin-left: -35px;
+    
+    }
+}
