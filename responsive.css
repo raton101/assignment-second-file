@@ -1,40 +1,78 @@
+
 @media screen and (max-width:576px) {
-    nav{
-        flex-direction: column;
-        margin: 10px;
-        align-items: center;
-        padding-left: 70px;
-    }
-    ul{
-        flex-direction: column;  
-    }
-    .frist-section{
-        flex-direction: column;
-        flex-direction: column-reverse;  
-    }
+   
+
+        nav{
+            flex-direction: column;
+            margin: 0px;
+            align-items: center;
+            padding-left: 50px;
+            width: 80%;
+            margin-left: 10px;
+            justify-content: center;
+
+        }
+        ul{
+            flex-direction: column;  
+        }
+        .frist-section{
+            flex-direction: column;
+            flex-direction: column-reverse;
+            width: 65%;  
+            padding-right: 90px;
+            align-items: center;
+            padding-left: 60px;
+        }
     
-    .image-div{
-        margin-left:0px ;
+        .image-div{
+            margin-left:3.5rem ;
+            width: 70%;
+            background-color: white;
+            padding: 60px;
+            border: 1px solid red;
+    
+           }
+           .containar{
+            margin-left: 2.9rem;
+            background-color: rgb(224, 188, 140);
+            padding: 30px;
+            margin-top: 30px;
+    
+           }
+           .nav-title{
+            font-size: 30px;
+            align-items: center;
+    
+        }
+        .nav-title img{
+            height: 25px;
+            margin-left: -35px;
+    
+        }
+    section{
         width: 100%;
-        background-color: white;
-        padding: 40px;
-       
-       }
-       .containar{
-        margin-left: 0px;
-        background-color: rgb(224, 188, 140);
-        padding: 40px;
-        margin-top: 30px;
-      
-       }
-       .nav-title{
-        font-size: 30px;
-        align-items: center;
-        
     }
-    .nav-title img{
-        height: 25px;
-        margin-left: -35px;
+    header{
+        width: 90%;
+    }
+
+/* section-02 */
+
+.game { 
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0px;
+    width: 90%;
+    align-items: center;
     
-    }
+   }
+   .four-one img{
+    width: 400px;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+
+   }
+    
 }
+   

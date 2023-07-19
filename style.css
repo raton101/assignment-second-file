@@ -122,7 +122,47 @@ ul{
    .frist-section{
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 30px;
     padding-bottom: 20px;
     background-color: antiquewhite;
+    margin-right: 0px;
+    
+   }
+   /* section-02 */
+
+   .online{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+   }
+   .funny{
+    color: #F948B2;
+    font-size: 48px;
+    font-weight: 700;
+   }
+   .four-description{
+    font-size: 18px;
+   font-weight: 400;
+   text-align: center;
+   padding: 5px;
+   
+   }
+   .ssecondd{
+   justify-content: center;
+   align-items: center;
+   }
+   .game { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 100px;
+    width: 90%;
+    align-items: center;
+    
+   }
+   .four-one img{
+    width: 200px;
+    height: auto;
+
    }
