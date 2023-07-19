@@ -73,6 +73,19 @@
     box-sizing: border-box;
 
    }
+   .four-one p{
+    padding-left: 21px;
+   }
+   .add-imag{
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    margin: 10px;
+}
+.thirrd-tow-image {
+   flex-direction: column;
+   
+}
     
 }
    

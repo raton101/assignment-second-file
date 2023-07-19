@@ -166,3 +166,38 @@ ul{
     height: auto;
 
    }
+
+   /* 3rd-section */
+   .third-containar{
+    color: #0B0223;
+    font-size: 1rem;
+    font-weight: 700;
+ 
+   }
+   .play{
+    color: #F948B2;
+    }
+
+    .big{
+        width: 300px;
+
+    }
+    .smole{
+        width: 200px;
+        height: 200px;
+        
+       
+        
+    }
+    .thirrd-tow-image {
+        position: relative;
+        display: flex;
+       
+    }
+    .add-imag{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin: 20px;
+    }
+   
