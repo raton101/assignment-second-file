@@ -54,8 +54,9 @@ ul{
 }
 .nav-icon{
     background-color: rgb(160, 170, 170);
-    padding: 10px 30px;
+    padding: 5px 30px;
     border-radius: 5px;
+    margin-bottom: 5px;
    
 
 }
@@ -185,8 +186,7 @@ ul{
     .smole{
         width: 200px;
         height: 200px;
-        
-       
+        padding-bottom: 100px;
         
     }
     .thirrd-tow-image {
@@ -200,4 +200,131 @@ ul{
         gap: 100px;
         margin: 20px;
     }
+    /* section-03 */
+   .carrres{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+
+   }
+   .sen-despn{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+
+   }
+ 
+   .sectn-all{
+    display: flex;
+    justify-content: center;
+    background-color: #F948B2;
+    box-sizing: border-box;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 10px;
+
+   }
+   .list{
+    color: white;
+   font-size: 20px;
+   font-weight:400;
+   padding-left: 0px;
+   margin-left: 0px;
+
+
+   }
+   .ssen-03 img{
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+   }
+  .listt-item{
+    padding-left: 0px;
+  }
+   /* section-04 */
+
+   .logo{
+    display: flex;
+    align-items:center ;
+    width: 70%;
+
+   }
+   .logo:hover{
+    background-color: #aba5b9;
+    border: 1px solid rgb(214, 73, 73);
+    border-radius: 10px;
+
+
+   }
+   p{
+    font-size: 1rem;
+   }
+   .logo-all{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+   
+    padding: 2rem 1rem 1rem 2rem;
+
+   }
+   #game{
+   text-align: center;
+   padding-top: 2rem ;
+   padding-bottom: 1rem;
+    
+   }
+   ul{
+    align-items: center;
+    gap: 20px;
+    padding-left: 23rem;
+    
+   }
+   .our-list li a{
+    color: aliceblue;
+   }
+   .logoo img{
+ width: 80px;
+ align-items: center;
+ margin-right:90px ;
+ padding-top: 30px;
+
+   }
+   .logoo  {
+    padding-left: 20rem;
+    padding-top: 30px;
+    
+   }
+   #footer-all{
+    background-color: #261555;
+
+   }
+   .last{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+   }
+   h4 {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-right: 40px;
+  
+
+   }
+   .play{
+    padding: 2rem;
+    text-align: center;
+   }
+.last{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 5rem;
+    margin-right: 10px;
+    
+}
+
+
    
