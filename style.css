@@ -178,6 +178,11 @@ ul{
    .play{
     color: #F948B2;
     }
+    .trd-ttl{
+        text-align: center;
+        margin: 20px;
+
+    }
 
     .big{
         width: 300px;
@@ -274,6 +279,9 @@ ul{
    padding-bottom: 1rem;
     
    }
+
+
+
    ul{
     align-items: center;
     gap: 20px;
@@ -284,10 +292,10 @@ ul{
     color: aliceblue;
    }
    .logoo img{
- width: 80px;
- align-items: center;
- margin-right:90px ;
- padding-top: 30px;
+      width: 80px;
+      align-items: center;
+      margin-right:90px ;
+      padding-top: 30px;
 
    }
    .logoo  {

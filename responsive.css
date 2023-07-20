@@ -73,6 +73,14 @@
     box-sizing: border-box;
 
    }
+ 
+   .trd-ttl{
+    text-align: center;
+   }
+   .thde-dispsn{
+    text-align: center;
+    padding: 2rem;
+   }
    .four-one p{
     padding-left: 21px;
    }
@@ -82,8 +90,21 @@
     gap: 0px;
     margin: 10px;
 }
+.big{
+    width: 250px;
+
+
+}
+.smole{
+    width: 150px;
+    height: 150px;
+    padding-bottom: 100px;
+    
+    
+}
 .thirrd-tow-image {
-   flex-direction: column;
+    position: relative;
+    display: flex;
    
 }
 /* section-03 */
@@ -119,8 +140,75 @@
         width: 30px;
        }
        p{
-        font-size: .7rem;
+        font-size:7rem;
+        }
+
+
+        .last{
+            color: rgba(255, 255, 255, 0.60);
+            font-size: 16px;
+            font-weight: 500;
+           }
+
+           .last{
+            flex-direction: column;
+            padding: 0px;
+            padding-top: 0rem;
+            margin-right: 0px;
+            
+            
+        }
+      p{
+        font-size: 10px;
+      }
+
        
-    
+        #footer-all{
+            background-color: #261555;
+            flex-direction: column;
+        
+           }
+           ul{
+            align-items: center;
+            gap: 5px;
+            padding-left: 0rem;            
+           }
+
+           .our-list li a{
+            color: aliceblue;
+            padding: 0px;
+            margin: 0px;
+           }
+
+
+
+
+           .logoo img{
+            width: 50px;
+            align-items: center;
+            margin-right:5px ;
+            padding-top: 0px;
+           
+              }
+              .logoo  {
+               padding-left: 5rem;
+               padding-top: 10px;
+               
+              }
+  
+   h4 {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+  
+
+   }
+   .play{
+    padding: 2rem;
+    text-align: center;
+   }
+
 }
    
